@@ -1,0 +1,81 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "Android_TxHyperAutomate_Device",
+      "Description": null,
+      "Url": "\"http://localhost:4723/wd/hub\"",
+      "PlatformName": "Android",
+      "PlatformVersion": "Android 10",
+      "DeviceName": "Mobile Emulator_Pixel XL API 29",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {},
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    },
+    {
+      "Name": "iOS_TXHyperAutomate_Device",
+      "Description": null,
+      "Url": "https://jatinderjain4:8n7sBB3RLnESyhyhq3wn@hub-cloud.browserstack.com/wd/hub",
+      "PlatformName": "iOS",
+      "PlatformVersion": "iOS 13.1",
+      "DeviceName": "iPhone 11 Pro",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {},
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": true,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "Eribank_Android",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "app": "D:\\UiPath\\UiPathHyperAutomateFramework-main\\UiPathHyperAutomateFramework-main\\.settings\\APK File\\eribank.apk"
+          },
+          "StartPage": null
+        }
+      }
+    },
+    {
+      "$id": "2",
+      "Name": "Eribank_iOS",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "iOS": {
+          "Capabilities": {
+            "app": "bs://a50f7b9d9bd4e9faf4a42f455ce4377c54fe7b64",
+            "bundleId": "com.experitest.eribank"
+          },
+          "StartPage": null
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {}
+}

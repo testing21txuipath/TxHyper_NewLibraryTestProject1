@@ -1,0 +1,101 @@
+{
+  "name": "TxHyper_NewLibraryTestProject1",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "AmazonLibrary_TXFramework": "[1.0.5]",
+    "AndroidLibrary": "[1.0.8]",
+    "Desktop_OrderScenarios": "[1.0.3]",
+    "UiPath.System.Activities": "[21.10.2]",
+    "UiPath.Testing.Activities": "[1.4.3]",
+    "UiPath.UIAutomation.Activities": "[21.10.3]",
+    "UiPath.WebAPI.Activities": "[1.9.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.3.0",
+  "projectVersion": "1.0.92067745",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "Tests/MobileScenarios/iOS_Scenarios/EriBank_ios/iOS_InvalidScenario.xaml",
+        "Tests/MobileScenarios/iOS_Scenarios/EriBank_ios/iOS_LoginLogoutScenario.xaml",
+        "Tests/MobileScenarios/iOS_Scenarios/EriBank_ios/iOS_MultipleScreensiOS.xaml",
+        "Tests/API Scenarioes/ApiTest_Fail.xaml",
+        "Tests/API Scenarioes/ApiTest_Pass.xaml",
+        "Tests/SAP/SAP_Scenario.xaml",
+        "Utilities/Connectors/DataBase/ReportUtil/Reports.xaml",
+        "Utilities/Connectors/DataBase/DBConnection.xaml",
+        "Utilities/Connectors/DataBase/DeleteRows.xaml",
+        "Utilities/Connectors/DataBase/DropTable.xaml",
+        "Utilities/Connectors/DataBase/InsertRows.xaml",
+        "Utilities/Connectors/DataBase/InsertTable.xaml",
+        "Utilities/Connectors/DataBase/UpdateRows.xaml",
+        "Utilities/Connectors/EmailUtil/Email.xaml",
+        "Utilities/Connectors/AzureDevopsUtil.xaml",
+        "Utilities/Connectors/ExcelScenario.xaml",
+        "Utilities/Connectors/JiraUtil.xaml",
+        "Utilities/Connectors/JSONScenario.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5e1ab120-b419-4577-a77c-725f16fd22de",
+        "dataVariationFilePath": ".variations\\SampleSheet_Sheet2.json",
+        "fileName": "Tests\\DesktopScenario\\Order_App_Scenario.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1869c797-3c6c-4f98-b473-589bbbc0e092",
+        "fileName": "Tests\\WebScenarios\\Amazon_MultipleScenario.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3dba8dd5-5d26-4bc9-9441-fa030f04c2d6",
+        "fileName": "Tests\\WebScenarios\\Amazon_InvalidScenario.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "eea45bd7-6e95-4178-92df-bbec9a6f6cf7",
+        "fileName": "Tests\\MobileScenarios\\AndroidScenarios\\AndroidLoginLogout.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b93a2cbd-736c-4c57-a320-842a580aebe3",
+        "fileName": "Tests\\MobileScenarios\\AndroidScenarios\\Android_MultipleScenarios.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "053223ba-12b5-4a5b-a596-9700ce39377f",
+        "fileName": "MainTestCase.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

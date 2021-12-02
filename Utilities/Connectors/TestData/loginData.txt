@@ -1,0 +1,20 @@
+[
+   {
+      "UserName":"Automation1",
+      "password":"MARKET-PROVEN",
+      "Advisor":{
+         "UserName":"Automation5",
+         "password":"pass1234"
+      },
+      "Users":[
+         {
+            "EmailID":"",
+            "password":"pass1234"
+         },
+         {
+            "EmailID":"damco20@gmail.com",
+            "password":"pass1234"
+         }
+      ]
+   }
+]

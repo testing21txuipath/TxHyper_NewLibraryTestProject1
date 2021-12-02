@@ -1,0 +1,91 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    
+    "required": [
+        "Company_Name",
+        "Phone_Number",
+        "First_Name",
+        "Email",
+        "Role_in_company",
+        "Address",
+        "Last_Name"
+    ],
+    "properties": {
+        "Company_Name": {
+            "$id": "#/properties/Company_Name",
+            "type": "string",
+            "title": "The Company_Name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "abc"
+            ]
+        },
+        "Phone_Number": {
+            "$id": "#/properties/Phone_Number",
+            "type": "integer",
+            "title": "The Phone_Number schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "987654321"
+            ]
+        },
+        "First_Name": {
+            "$id": "#/properties/First_Name",
+            "type": "string",
+            "title": "The First_Name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "doe"
+            ]
+        },
+        "Email": {
+            "$id": "#/properties/Email",
+            "type": "string",
+            "title": "The email schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "john.doe@aol.com"
+            ]
+        },
+        "Role_in_company": {
+            "$id": "#/properties/Role_in_company",
+            "type": "string",
+            "title": "The Role_in_company schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Tester"
+            ]
+        },
+        "Address": {
+            "$id": "#/properties/Address",
+            "type":["string","string"],
+            "title": "The Address schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "India"
+            ]
+        },
+        "Last_Name": {
+            "$id": "#/properties/Last_Name",
+            "type": "string",
+            "title": "The Last_Name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "John"
+            ]
+        }
+    },
+    "additionalProperties": true
+}
