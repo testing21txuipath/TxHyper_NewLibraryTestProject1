@@ -3,11 +3,9 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
-    "AmazonLibrary_TXFramework": "[1.0.5]",
-    "AndroidLibrary": "[1.0.8]",
-    "Desktop_OrderScenarios": "[1.0.3]",
+    "App_Library": "[1.0.6]",
     "UiPath.System.Activities": "[21.10.2]",
-    "UiPath.Testing.Activities": "[1.4.3]",
+    "UiPath.Testing.Activities": "[1.4.5]",
     "UiPath.UIAutomation.Activities": "[21.10.3]",
     "UiPath.WebAPI.Activities": "[1.9.2]"
   },
@@ -15,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.3.0",
-  "projectVersion": "1.0.92067745",
+  "projectVersion": "1.0.93267653",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -89,11 +87,24 @@
         "editingStatus": "Publishable",
         "testCaseId": "053223ba-12b5-4a5b-a596-9700ce39377f",
         "fileName": "MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f206e4c1-eb50-4fbe-824d-f30b7804bd47",
+        "fileName": "Tests\\MobileScenarios\\AndroidScenarios\\Android_MultipleScenarios - Copy (1).xaml"
       }
     ],
     "modernBehavior": false
   },
   "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "MainTestCase.xaml",
+      "uniqueId": "053223ba-12b5-4a5b-a596-9700ce39377f",
+      "input": [],
+      "output": []
+    }
+  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},

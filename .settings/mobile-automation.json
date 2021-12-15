@@ -5,7 +5,7 @@
     {
       "Name": "Android_TxHyperAutomate_Device",
       "Description": null,
-      "Url": "\"http://localhost:4723/wd/hub\"",
+      "Url": "http://localhost:4723/wd/hub",
       "PlatformName": "Android",
       "PlatformVersion": "Android 10",
       "DeviceName": "Mobile Emulator_Pixel XL API 29",
@@ -35,6 +35,26 @@
       "GeoLocation": null,
       "LoggingModel": {
         "LoggingEnabled": true,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    },
+    {
+      "Name": "Android_TxNewLibraryAutomate_Device",
+      "Description": null,
+      "Url": "https://oauth-testingtx2020-e96ad:4de7e2ad-c989-4d27-9e94-5dfa6769058a@ondemand.eu-central-1.saucelabs.com:443/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "Android 11",
+      "DeviceName": "GoogleAPI Emulator",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {},
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
         "VideoRecordingEnabled": false,
         "RecordingTimeLimit": 600,
         "VideoQuality": 1,
