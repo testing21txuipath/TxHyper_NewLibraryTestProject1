@@ -1,9 +1,9 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Amazon_InvalidScenario" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:aw="clr-namespace:App_Library.WebScenarios;assembly=App_Library" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Amazon_InvalidScenario" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:aw="clr-namespace:App_Library.WebScenarios;assembly=App_Library" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="error_msg" Type="InOutArgument(x:Boolean)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>636,466</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>883.333333333333,466</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -100,12 +100,21 @@
       <AssemblyReference>DevOps.Azure.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="242,114" sap2010:WorkflowViewState.IdRef="Sequence_4">
+  <Sequence sap:VirtualizedContainerService.HintSize="421.333333333333,268" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <aw:AmazonInvalidScenario sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="AmazonInvalidScenario_2" />
+    <aw:AmazonInvalidScenario Test_Failure="{x:Null}" sap:VirtualizedContainerService.HintSize="379.333333333333,22" sap2010:WorkflowViewState.IdRef="AmazonInvalidScenario_2" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="379.333333333333,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="C:\\Users\\AjayBezawada\\Documents\\UiPath\\TxHyper_NewLibraryTestProject1\\Utilities\\Connectors\\JiraUtil.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="Description" />
+        <InArgument x:TypeArguments="x:String" x:Key="Project_Key" />
+        <InArgument x:TypeArguments="x:String" x:Key="Summary" />
+        <InArgument x:TypeArguments="x:String" x:Key="Issue_Type" />
+        <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
   </Sequence>
 </Activity>

@@ -3,20 +3,25 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
-    "App_Library": "[1.0.6]",
+    "App_Library": "[1.0.12]",
+    "UiPath.Jira.Activities": "[2.3.1-preview]",
     "UiPath.System.Activities": "[21.10.2]",
     "UiPath.Testing.Activities": "[1.4.5]",
     "UiPath.UIAutomation.Activities": "[21.10.3]",
-    "UiPath.WebAPI.Activities": "[1.9.2]"
+    "UiPath.WebAPI.Activities": "[1.9.2]",
+    "UiPathTeam.DatatableConverter.Activities": "[1.0.1]",
+    "UiPathTeam.JiraGet.Activities": "[1.0.0.116]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.3.0",
-  "projectVersion": "1.0.93267653",
+  "projectVersion": "1.0.93861768",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -25,7 +30,8 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -41,7 +47,6 @@
         "Tests/MobileScenarios/iOS_Scenarios/EriBank_ios/iOS_MultipleScreensiOS.xaml",
         "Tests/API Scenarioes/ApiTest_Fail.xaml",
         "Tests/API Scenarioes/ApiTest_Pass.xaml",
-        "Tests/SAP/SAP_Scenario.xaml",
         "Utilities/Connectors/DataBase/ReportUtil/Reports.xaml",
         "Utilities/Connectors/DataBase/DBConnection.xaml",
         "Utilities/Connectors/DataBase/DeleteRows.xaml",
@@ -53,16 +58,11 @@
         "Utilities/Connectors/AzureDevopsUtil.xaml",
         "Utilities/Connectors/ExcelScenario.xaml",
         "Utilities/Connectors/JiraUtil.xaml",
-        "Utilities/Connectors/JSONScenario.xaml"
+        "Utilities/Connectors/JSONScenario.xaml",
+        "Tests\\DesktopScenario\\Order_App_Scenario.xaml"
       ]
     },
     "fileInfoCollection": [
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "5e1ab120-b419-4577-a77c-725f16fd22de",
-        "dataVariationFilePath": ".variations\\SampleSheet_Sheet2.json",
-        "fileName": "Tests\\DesktopScenario\\Order_App_Scenario.xaml"
-      },
       {
         "editingStatus": "InProgress",
         "testCaseId": "1869c797-3c6c-4f98-b473-589bbbc0e092",
@@ -92,6 +92,11 @@
         "editingStatus": "InProgress",
         "testCaseId": "f206e4c1-eb50-4fbe-824d-f30b7804bd47",
         "fileName": "Tests\\MobileScenarios\\AndroidScenarios\\Android_MultipleScenarios - Copy (1).xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "cb5dcf35-b952-4b02-a002-c76cb664168c",
+        "fileName": "Tests\\SAP\\SAP_Scenario.xaml"
       }
     ],
     "modernBehavior": false

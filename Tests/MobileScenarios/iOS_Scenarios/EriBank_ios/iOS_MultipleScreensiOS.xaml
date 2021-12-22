@@ -105,6 +105,6 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ae:iOS_MultipleScreenScenario start_suite="{x:Null}" start_test="{x:Null}" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="iOS_MultipleScreenScenario_1" In_ExcelPath="C:\Users\AjayBezawada\Documents\UiPath\TxHyper_NewLibraryTestProject1\SampleSheet.xlsx" In_SheetName="EriBank_IOS" />
+    <ae:iOS_MultipleScreenScenario start_suite="{x:Null}" start_test="{x:Null}" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="iOS_MultipleScreenScenario_1" In_ExcelPath="C:\Users\AjayBezawada\Documents\UiPath\TxHyper_NewLibraryTestProject1\Config\TestData.xlsx" In_SheetName="EriBank_IOS" />
   </Sequence>
 </Activity>
