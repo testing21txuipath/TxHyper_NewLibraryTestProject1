@@ -1,0 +1,13 @@
+D:\UiPathNewLibraryProject\obj\Debug\netcoreapp3.1\UiPathNewLibraryProject.csprojAssemblyReference.cache
+D:\UiPathNewLibraryProject\obj\Debug\netcoreapp3.1\UiPathNewLibraryProject.AssemblyInfoInputs.cache
+D:\UiPathNewLibraryProject\obj\Debug\netcoreapp3.1\UiPathNewLibraryProject.AssemblyInfo.cs
+D:\UiPathNewLibraryProject\obj\Debug\netcoreapp3.1\UiPathNewLibraryProject.csproj.CoreCompileInputs.cache
+D:\UiPathNewLibraryProject\bin\Debug\netcoreapp3.1\UiPathNewLibraryProject.exe
+D:\UiPathNewLibraryProject\bin\Debug\netcoreapp3.1\UiPathNewLibraryProject.deps.json
+D:\UiPathNewLibraryProject\bin\Debug\netcoreapp3.1\UiPathNewLibraryProject.runtimeconfig.json
+D:\UiPathNewLibraryProject\bin\Debug\netcoreapp3.1\UiPathNewLibraryProject.runtimeconfig.dev.json
+D:\UiPathNewLibraryProject\bin\Debug\netcoreapp3.1\UiPathNewLibraryProject.dll
+D:\UiPathNewLibraryProject\bin\Debug\netcoreapp3.1\UiPathNewLibraryProject.pdb
+D:\UiPathNewLibraryProject\obj\Debug\netcoreapp3.1\UiPathNewLibraryProject.dll
+D:\UiPathNewLibraryProject\obj\Debug\netcoreapp3.1\UiPathNewLibraryProject.pdb
+D:\UiPathNewLibraryProject\obj\Debug\netcoreapp3.1\UiPathNewLibraryProject.genruntimeconfig.cache
